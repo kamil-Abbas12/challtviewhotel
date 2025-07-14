@@ -1,6 +1,6 @@
-import dynamic from 'next/dynamic';
+'use client';
 
-const RoomsClient = dynamic(() => import('./RoomsClient'), { ssr: false });
+import RoomsClient from './RoomsClient';
 
 export default function RoomSelectionPage() {
   return <RoomsClient />;
