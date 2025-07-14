@@ -57,7 +57,7 @@ const Footer = () => {
           <div className="flex items-start gap-2 mt-3">
             <img src="/location.svg" alt="Location" width={24} />
             <span className="text-gray-600">
-              Chalt View Hotel near Karakorum Cooperative Bank, Chalt Nagar, Gilgit
+              Chalt View Hotel near Karakorum Cooperative Bank, Chalt Nagar Gilgit
             </span>
           </div>
         </div>

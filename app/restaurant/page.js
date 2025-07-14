@@ -61,7 +61,7 @@ Whether you are in the mood for a leisurely breakfast, a business lunch, or a ni
 <h1 className="text-black  text-2xl md:text-5xl "> Fresh, Seasonal Dishes at</h1>
 <h1 className="text-black  text-2xl md:text-5xl "> Bokinn</h1>
 
-<p className='text-gray-600 '>Welcome to Chalt View Hotel, nestled in the scenic valley of Nagar, Gilgit. We offer a perfect blend of local warmth and modern comfort, with cozy rooms and stunning mountain views. Whether you're here to explore or unwind, enjoy a peaceful and memorable stay with us.</p>
+<p className='text-gray-600 '>Welcome to Chalt View Hotel nestled in the scenic valley of Nagar Gilgit. We offer a perfect blend of local warmth and modern comfort with cozy rooms and stunning mountain views. Whether you're here to explore or unwind enjoy a peaceful and memorable stay with us.</p>
 <div className="box flex  flex-col md:flex-row mt-10 gap-4  ">
   <div className="container  w-[200px] bg-[#f1f1f1] h-[100px] text-center flex-col  ">
     <h4 className='text-gray-500  mt-3 text-center'>Reservation By Phone</h4>
