@@ -1,7 +1,14 @@
 'use client';
 
-import RoomsClient from './RoomsClient';
+import dynamic from 'next/dynamic';
+import { Suspense } from 'react';
+
+const RoomsClient = dynamic(() => import('./RoomsClient'), { ssr: false });
 
 export default function RoomSelectionPage() {
-  return <RoomsClient />;
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <RoomsClient />
+    </Suspense>
+  );
 }
