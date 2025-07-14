@@ -39,7 +39,6 @@ export default function CheckInPage() {
 
     if (!res.ok) {
       const errorText = await res.text();
-      console.error("Server error:", errorText);
       alert("Error checking room availability.");
       return;
     }

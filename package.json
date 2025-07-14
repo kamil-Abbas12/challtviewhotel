@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth/mongodb-adapter": "^3.9.1",
     "@fortawesome/fontawesome-free": "^6.7.2",
+    "@next-auth/mongodb-adapter": "^1.1.0",
     "@sfpy/node-core": "^0.2.8",
     "bcryptjs": "^3.0.2",
     "crypto": "^1.0.1",
@@ -20,7 +20,7 @@
     "mongoose": "^8.15.0",
     "next": "15.3.2",
     "next-auth": "^4.24.11",
-    "nodemailer": "^7.0.3",
+    "nodemailer": "^6.10.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-error-boundary": "^6.0.0",
@@ -29,12 +29,14 @@
     "swiper": "^11.2.8"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
+    "@eslint/eslintrc": "^3.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@typescript-eslint/parser": "^8.36.0",
     "autoprefixer": "^10.4.21",
-    "eslint": "^9",
+    "eslint": "^9.0.0",
     "eslint-config-next": "15.3.2",
     "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.7"
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5.8.3"
   }
 }

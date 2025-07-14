@@ -1,5 +1,5 @@
 'use client'
-
+import Image from 'next/image'
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { useSession } from 'next-auth/react'
@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between px-4 py-3 md:px-8">
           {/* Left: Logo */}
           <div className="flex items-center space-x-2">
-            <img src="/logo.png" alt="Logo" width={80} />
+            <Image src="/logo.png" alt="Logo" width={80} height={80} />
             <span className="text-md font-semibold text-gray-700">Chalt View Hotel</span>
           </div>
 
@@ -97,7 +97,7 @@ const Navbar = () => {
               <div className="flex justify-between items-center mb-6">
 
                 <span className="text-xl font-semibold"> Chalt View Hotel</span>
-           <span className='bg-white px-2'><img src="/logo.png" alt="Logo" width={40} /></span> 
+           <span className='bg-white px-2'><Image src="/logo.png" alt="Logo" width={40} /></span> 
 
                 <button onClick={() => setMobileMenuOpen(false)}>
                   <X className="w-6 h-6 mr-2 text-white" />

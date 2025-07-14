@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 
 export default function BookingFormPage() {
-  const searchParams = useSearchParams();
+  const {searchParams} = useSearchParams();
   const router = useRouter();
 
   const [roomPrices, setRoomPrices] = useState({});
