@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -23,12 +24,12 @@ const Footer = () => {
         {/* About */}
         <div>
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Logo" width={60} />
+            <Image src="/logo.png" alt="Logo" width={60} height={60} />
             <h1 className="text-2xl font-semibold">Chalt View Hotel</h1>
           </div>
           <p className="text-gray-600 mt-4">
             Each room features plush bedding, high-quality linens, and a
-            selection of amenities to ensure a restful night's sleep.
+            selection of amenities to ensure a restful night&apos;s sleep.
           </p>
         </div>
 
@@ -47,15 +48,15 @@ const Footer = () => {
         <div className="mr-5 ">
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
           <div className="flex items-center gap-2 mt-3">
-            <img src="/call2.svg" alt="Phone" width={24} />
+            <Image src="/call2.svg" alt="Phone" width={24} height={24} />
             <span className="text-gray-600">03110866930</span>
           </div>
           <div className="flex items-center gap-2 mt-3">
-            <img src="/email.svg" alt="Email" width={24} />
+            <Image src="/email.svg" alt="Email" width={24} height={24} />
             <span className="text-gray-600">Chaltviewhotel@gmail.com</span>
           </div>
           <div className="flex items-start gap-2 mt-3">
-            <img src="/location.svg" alt="Location" width={24} />
+            <Image src="/location.svg" alt="Location" width={24} height={24} />
             <span className="text-gray-600">
               Chalt View Hotel near Karakorum Cooperative Bank, Chalt Nagar Gilgit
             </span>
